@@ -1,0 +1,15 @@
+|halfaddandsub
+A => Sum.IN0
+A => Carry.IN0
+A => Diff.IN0
+A => Borrow.IN0
+B => Sum.IN1
+B => Carry.IN1
+B => Diff.IN1
+B => Borrow.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Borrow <= Borrow.DB_MAX_OUTPUT_PORT_TYPE
+
+
